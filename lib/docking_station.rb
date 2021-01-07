@@ -4,8 +4,8 @@ class DockingStation
     bike = Bike.new
   end
 
-  def docking_bike
-  
+  def docking_bike(bike)
+
   end
 
 end
