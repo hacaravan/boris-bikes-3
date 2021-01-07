@@ -5,7 +5,7 @@ class DockingStation
   end
 
   def docking_bike(bike)
-
+    # @dock = bike
   end
 
 end

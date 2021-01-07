@@ -8,6 +8,12 @@ describe DockingStation do
   it "responds to docking_bike with 1 paramater" do
     expect(subject).to respond_to(:docking_bike).with(1).argument
   end
+  it "should have the bike we have just docked in the instance variable once we have docked it" do
+    bike = Bike.new
+    station = DockingStation.new
+    station.docking_bike(bike)
+    expect(@dock).to eq bike
+  end
 end
 
 # Our DockingStation is now ready to receive an instruction to release a bike.
