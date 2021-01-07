@@ -4,9 +4,9 @@ class DockingStation
     bike = Bike.new
   end
 
-  # def docking_bike(bike)
-  #   @dock = bike
-  # end 
+  def docking_bike
+  
+  end
 
 end
 

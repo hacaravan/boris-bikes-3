@@ -5,7 +5,7 @@ describe DockingStation do
     dock = DockingStation.new
     expect(dock).to respond_to :release_bike
   end
-  it "responds to docking_bike with 1 parameter" do
+  it "responds to docking_bike" do
     expect(subject).to respond_to :docking_bike
   end
 end
